@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+  }
+  
+  // taille de base police du site
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
+  
+  // reaset des LI
+  li {
+    list-style-type: none;
+  }
+  
+  // reaset des LIENS
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

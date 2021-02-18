@@ -1,0 +1,61 @@
+@import "./sass/reset";
+@import "./sass/variables";
+@import "./sass/mixins";
+@import "./sass/layout";
+@import "./sass/components";
+@import "./sass/animation";
+
+
+.body__content{
+
+    padding: 51px 67px;
+   border-radius: 8px;
+    background: #232323;
+    color: #fff;
+    position: absolute;
+    left: -60px;
+    text-align: left;
+    // min-width: 424px;
+    width: 50%;
+    height: 617px;
+
+}
+.hero__body{
+   position: relative;
+
+    .hero__title{
+        font-size: 96px;
+        font-family: DM Sans;
+        line-height: 125px;
+        color: white;
+        white-space: nowrap;
+    }
+    .hero__txt{
+        font-size: 24px;
+        width: 430px;
+        height: 93px;
+        line-height: 31px;
+        color: white;
+
+        
+    }
+}
+
+.hero__img{
+
+
+ 
+
+
+    img{
+        height: 615px;
+        width: 105%;
+        object-fit: cover;
+        border-radius: 0px 8px 8px 0px;
+      
+    
+     
+        
+       
+    }
+}
