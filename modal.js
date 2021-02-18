@@ -8,20 +8,33 @@ function editNav() {
 }
 
 // DOM Elements
+const form = document.querySelector('.form-user');
+let tableauResults = [];
 const modalbg = document.querySelector(".bground");
 const modalBtn = document.querySelectorAll(".modal-btn");
 const formData = document.querySelectorAll(".formData");
 const close =document.querySelector(".close");
-const name = document.querySelector('.formData:nth-child(1) input');
+const nameUser= document.querySelector('.formData:nth-child(1) input');
 const lastName = document.querySelector('.formData:nth-child(2) input');
-const Mail = document.querySelector('.formData:nth-child(3) input');
+const inpMail = document.querySelector('.formData:nth-child(3) input');
 const dateOfBirth = document.querySelector('.formData:nth-child(4) input');
 const tournement =  document.querySelector('.formData:nth-child(5) input');
 const city =  document.querySelector('.formData:nth-child(6) input');
 const conditions =  document.querySelector('.formData:nth-child(7) input');
+const alert = document.querySelectorAll('.message-alert');
 
 
-close.addEventListener('click', closeModal);
+// soumission du form
+form.addEventListener ('submit', (e) => {
+  e.preventDefault();
+   
+})
+
+
+
+
+
+
 
 
 // launch modal event
@@ -32,7 +45,48 @@ function launchModal() {
   modalbg.style.display = "block";
 }
 
+
+// close modal form
+close.addEventListener('click', (closeModal));
+// close modal form
 function closeModal() {
   modalbg.style.display = "none";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
 
