@@ -10,21 +10,39 @@ header{
     margin: 100px 100px;
     
 }
-
-
-
-footer{
-   
-    margin-top: 100px;
-    margin-bottom: 63px;
-    margin-left: 40px;
-.copyrights{
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 15px;
-    color:$color-secondary;
-    font-weight: 500;
-    
-}
+.modal{
+    background-color: $color-primary;
+    position: absolute;
+    color: white;
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 536px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:80px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+//  display: none;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

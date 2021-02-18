@@ -41,26 +41,39 @@ header {
   margin: 100px 100px;
 }
 
-footer {
-  margin-top: 100px;
-  margin-bottom: 63px;
-  margin-left: 40px;
-}
-
-footer .copyrights {
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 15px;
-  color: #FE142F;
-  font-weight: 500;
+.modal {
+  background-color: #232323;
+  position: absolute;
+  color: white;
+  -webkit-box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 536px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 80px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
 }
 
 .navigation__link {
-  background-color: #FE142F;
-  color: white;
+  color: #232323;
   border-radius: 8px;
   padding: 9px 15px;
   font-weight: 500;
+  -webkit-transition: all  0.5s ease-in-out;
+  transition: all  0.5s ease-in-out;
+}
+
+.navigation__link:hover {
+  background-color: #FE142F;
+  color: white;
+}
+
+.navigation__link.--active {
+  background-color: #FE142F;
+  color: white;
 }
 
 .hero__submit {
@@ -70,6 +83,19 @@ footer .copyrights {
   color: white;
   padding: 11px 26px;
   font-size: 25px;
+  margin-top: 85px;
+}
+
+.modal__submit {
+  background-color: #FE142F;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 11px 26px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 130px;
 }
 
 .body__content {
@@ -78,10 +104,11 @@ footer .copyrights {
   background: #232323;
   color: #fff;
   position: absolute;
-  left: -60px;
+  left: -70px;
   text-align: left;
   width: 50%;
   height: 617px;
+  z-index: -10;
 }
 
 .hero__body {
@@ -89,9 +116,9 @@ footer .copyrights {
 }
 
 .hero__body .hero__title {
-  font-size: 96px;
+  font-size: 90px;
   font-family: DM Sans;
-  line-height: 125px;
+  line-height: 100px;
   color: white;
   white-space: nowrap;
 }
@@ -102,13 +129,17 @@ footer .copyrights {
   height: 93px;
   line-height: 31px;
   color: white;
+  margin-top: 55px;
 }
 
 .hero__img img {
   height: 615px;
-  width: 105%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0px 8px 8px 0px;
+  position: absolute;
+  z-index: -15;
+  left: 65px;
 }
 /*# sourceMappingURL=main.css.map */

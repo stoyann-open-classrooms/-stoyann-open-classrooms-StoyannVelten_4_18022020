@@ -13,20 +13,21 @@
     background: #232323;
     color: #fff;
     position: absolute;
-    left: -60px;
+    left: -70px;
     text-align: left;
     // min-width: 424px;
     width: 50%;
     height: 617px;
+    z-index: -10;
 
 }
 .hero__body{
    position: relative;
 
     .hero__title{
-        font-size: 96px;
+        font-size: 90px;
         font-family: DM Sans;
-        line-height: 125px;
+        line-height: 100px;
         color: white;
         white-space: nowrap;
     }
@@ -36,6 +37,7 @@
         height: 93px;
         line-height: 31px;
         color: white;
+        margin-top: 55px;
 
         
     }
@@ -44,18 +46,18 @@
 .hero__img{
 
 
- 
-
-
     img{
         height: 615px;
-        width: 105%;
+        width: 100%;
         object-fit: cover;
         border-radius: 0px 8px 8px 0px;
+        position: absolute;
+        z-index: -15;
+        left: 65px;
+    }
       
     
      
         
        
     }
-}
