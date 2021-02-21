@@ -1,6 +1,7 @@
-.burger{
+.burger {
     display: none;
     cursor: pointer;
+
     div {
         width: 25px;
         height: 4px;
@@ -10,39 +11,41 @@
 }
 
 
-.card__btn{
+.card__btn {
     @include btn;
 }
 
-.modal__close{
+.modal__close {
     cursor: pointer;
 }
-.modal__form{
+
+.modal__form {
     display: flex;
     flex-direction: column;
 }
 
-.text-control{
+.text-control {
     width: 100%;
     height: 60px;
     border-radius: 8px;
     outline: none;
 }
+
 .modal {
     background-color: #232323;
     color: white;
     padding: 20px;
     /* border-radius: 8px; */
-    font-size:  12px;
+    font-size: 12px;
     min-width: 320px;
     width: 480px;
     border-radius: 8px;
     position: absolute;
-    top:20%;
-    right: 50%;
+    top: 20%;
+    right: 40%;
     left: 50%;
 
-    
+
 }
 
 
@@ -50,53 +53,54 @@
     border: solid 1px white;
     height: 20px;
     width: 20px;
-     display: inline-flex;
+    display: inline-flex;
     margin: 4px;
     vertical-align: middle;
     display: inline-flex;
     margin-left: 40px;
     justify-content: center;
-     align-items: center; 
+    align-items: center;
     border-radius: 50%;
-    
-  
+
+
 }
 
-.checkbox-label>div{
+.checkbox-label>div {
     width: 14px;
     height: 14px;
-  
+
     border-radius: 50%;
 }
 
-.checkbox-input:checked+.checkbox-label>div{
-    background-color:#279E7A;
-    transition: all 0.5s ease ;
-    
+.checkbox-input:checked+.checkbox-label>div {
+    background-color: #279E7A;
+    transition: all 0.5s ease;
+
 }
 
 
-.checkbox-input{
-     display: none;  
+.checkbox-input {
+    display: none;
+
 }
 
 
 
-.checkbox-txt{
+.checkbox-txt {
     padding: 5px;
 }
 
 
 
 
-.checkbox{
-     display: flex; 
-    align-items: center; 
-    
+.checkbox {
+    display: flex;
+    align-items: center;
+
 }
 
 
-.choice-label{
+.choice-label {
 
     border: solid 2px white;
     height: 14px;
@@ -109,48 +113,72 @@
     /* justify-content: center; */
     /* align-items: center; */
     border-radius: 3px;
+    position: relative;
 
-  
 
 }
 
 
 
-.choice-label >div{
+
+
+
+
+
+.choice-label>div {
     width: 14px;
     height: 14px;
     border-radius: 3px;
-   
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: 0;
+    bottom: 0;
 
-   
-    
+
+
+
 }
 
 
 
 
 .checkbox-input:checked+.choice-label>div {
-    background-color:#279E7A;
-    transition: all 0.5s ease ;
-  
-  
-    
+    background-color: #279E7A;
+    transition: all 0.5s ease;
+
+
+
 }
 
 
 
 
-.btn-submit{
-  
-  @include btn;
-  
-  
-  
+.btn-submit {
+
+    @include btn;
+
+
+
     text-align: center;
     color: white;
     margin: auto;
-    
+
 }
-.btn-submit:hover{
+
+.btn-submit:hover {
     background-color: #3876ac;
-    }
+}
+
+
+
+
+.modal__error {
+    color: $color-secondary;
+    display: none;
+}
+
+label {
+    align-self: flex-start;
+    padding: 5px;
+}
