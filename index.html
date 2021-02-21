@@ -58,87 +58,91 @@
                 je m'inscris
             </button>
         </div>
-    </main>
-    <div class="modal">
-        <div class="modal__body">
-            <span class="modal__close">X</span>
-            <div class="modal__body">
-                <form class="modal__form" name="reserve" action="index.html" method="get">
-                    <div class="modal__data">
-                        <label for="first">Prénom</label>
-                        <input class="text-control" type="text" id="first" name="first" minlength="2" />
-                    </div>
-                    <span class="modal__error">Veuillez entrer 2 caracteres ou plus pour le champ du prénom</span>
-                    <div class="modal__data">
-                        <label for="last">Nom</label>
-                        <input class="text-control" type="text" id="last" name="last" minlength="2" />
-                    </div>
-                    <span class="modal__error">Veuillez entrer 2 caracteres ou plus pour le champ du nom</span>
-                    <div class="modal__data">
-                        <label for="email">E-mail</label><br>
-                        <input class="text-control" type="email" id="email" name="email" />
-                    </div>
-                    <span class="modal__error">Veuillez entrer un mail valide.</span>
-                    <div class="modal__data">
-                        <label for="birthdate">Date de naissance</label>
-                        <input class="text-control" type="date" id="birthdate" name="birthdate" />
-                    </div>
-                    <div class="modal__data">
-                        <label for="quantity">À combien de tournois GameOn avez-vous déjà participé ?</label>
-                        <input type="number" class="text-control" id="quantity" name="quantity" min="0" max="99">
-                    </div>
-                    <p class="text-label">Quelles villes ?</p>
-                    <div class="modal__radio">
-                        <input class="checkbox-input" type="radio" id="location1" name="location" value="New York" />
-                        <label class="checkbox-label" for="location1">
-                            <div></div>
-                        </label> New York
-                        <input class="checkbox-input" type="radio" id="location2" name="location"
-                            value="San Francisco" />
-                        <label class="checkbox-label" for="location2">
-                            <div></div>
-                        </label>San Francisco
-                        <input class="checkbox-input" type="radio" id="location3" name="location" value="Seattle" />
-                        <label class="checkbox-label" for="location3">
-                            <div></div>
-                        </label>Seattle
-                        <input class="checkbox-input" type="radio" id="location4" name="location" value="Chicago" />
-                        <label class="checkbox-label" for="location4">
-                            <div></div>
-                        </label>Chicago
-                        <input class="checkbox-input" type="radio" id="location5" name="location" value="Boston" />
-                        <label class="checkbox-label" for="location5">
-                            <div></div>
-                        </label> Boston
-                        <input class="checkbox-input" type="radio" id="location6" name="location" value="Portland" />
-                        <label class="checkbox-label" for="location6">
-                            <div></div>
-                        </label>Portland
-                    </div>
-                    <span class="modal__error">Vous devez choisir une option</span>
 
-                    <div class="modal__data">
-                        <div class="checkbox">
-                            <input class="checkbox-input" type="checkbox" id="checkbox1" checked />
-                            <label class="choice-label" for="checkbox1" required>
-                                <div></div>
-                            </label>
-                            <p class="checkbox-txt"> J'ai lu et accepté les conditions d'utilisation.</p>
+        <div class="modal">
+            <div class="modal__body">
+                <span class="modal__close">X</span>
+                <div class="modal__body">
+                    <form class="modal__form" name="reserve" action="index.html" method="get">
+                        <div class="modal__data">
+                            <label for="first">Prénom</label>
+                            <input class="text-control" type="text" id="first" name="first" minlength="2" />
                         </div>
-                        <div class="checkbox">
-                            <input class="checkbox-input" type="checkbox" id="checkbox2" />
-                            <label class="choice-label" for="checkbox2">
-                                <div></div>
-                            </label>
-                            <p class="checkbox-txt">Je Je souhaite être prévenu des prochains évènements. </p>
+                        <span class="modal__error">Veuillez entrer 2 caracteres ou plus pour le champ du prénom</span>
+                        <div class="modal__data">
+                            <label for="last">Nom</label>
+                            <input class="text-control" type="text" id="last" name="last" minlength="2" />
                         </div>
-                        <span class="modal__error">Vous devez verifier que vous accepter les conditions génèrales</span>
-                        <input class="btn-submit" id="open-modale" type="submit" class="button" value="C'est parti" />
-                </form>
+                        <span class="modal__error">Veuillez entrer 2 caracteres ou plus pour le champ du nom</span>
+                        <div class="modal__data">
+                            <label for="email">E-mail</label><br>
+                            <input class="text-control" type="email" id="email" name="email" />
+                        </div>
+                        <span class="modal__error">Veuillez entrer un mail valide.</span>
+                        <div class="modal__data">
+                            <label for="birthdate">Date de naissance</label>
+                            <input class="text-control" type="date" id="birthdate" name="birthdate" />
+                        </div>
+                        <div class="modal__data">
+                            <label for="quantity">À combien de tournois GameOn avez-vous déjà participé ?</label>
+                            <input type="number" class="text-control" id="quantity" name="quantity" min="0" max="99">
+                        </div>
+                        <p class="text-label">Quelles villes ?</p>
+                        <div class="modal__radio">
+                            <input class="checkbox-input" type="radio" id="location1" name="location"
+                                value="New York" />
+                            <label class="checkbox-label" for="location1">
+                                <div></div>
+                            </label> New York
+                            <input class="checkbox-input" type="radio" id="location2" name="location"
+                                value="San Francisco" />
+                            <label class="checkbox-label" for="location2">
+                                <div></div>
+                            </label>San Francisco
+                            <input class="checkbox-input" type="radio" id="location3" name="location" value="Seattle" />
+                            <label class="checkbox-label" for="location3">
+                                <div></div>
+                            </label>Seattle
+                            <input class="checkbox-input" type="radio" id="location4" name="location" value="Chicago" />
+                            <label class="checkbox-label" for="location4">
+                                <div></div>
+                            </label>Chicago
+                            <input class="checkbox-input" type="radio" id="location5" name="location" value="Boston" />
+                            <label class="checkbox-label" for="location5">
+                                <div></div>
+                            </label> Boston
+                            <input class="checkbox-input" type="radio" id="location6" name="location"
+                                value="Portland" />
+                            <label class="checkbox-label" for="location6">
+                                <div></div>
+                            </label>Portland
+                        </div>
+                        <span class="modal__error">Vous devez choisir une option</span>
+                        <div class="modal__data">
+                            <div class="checkbox">
+                                <input class="checkbox-input" type="checkbox" id="checkbox1" checked />
+                                <label class="choice-label" for="checkbox1" required>
+                                    <div></div>
+                                </label>
+                                <p class="checkbox-txt"> J'ai lu et accepté les conditions d'utilisation.</p>
+                            </div>
+                            <div class="checkbox">
+                                <input class="checkbox-input" type="checkbox" id="checkbox2" />
+                                <label class="choice-label" for="checkbox2">
+                                    <div></div>
+                                </label>
+                                <p class="checkbox-txt">Je Je souhaite être prévenu des prochains évènements. </p>
+                            </div>
+                            <span class="modal__error">Vous devez verifier que vous accepter les conditions
+                                génèrales</span>
+                            <input class="btn-submit" id="open-modale" type="submit" class="button"
+                                value="C'est parti" />
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
+        </div>
+    </main>
     <footer>
         <p class="copyrights">
             Copyright 2014 - 2020, GameOn Inc.
