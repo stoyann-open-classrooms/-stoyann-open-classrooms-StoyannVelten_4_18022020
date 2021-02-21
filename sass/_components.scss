@@ -141,11 +141,11 @@
 
 
 .btn-submit{
-    width: 200px;
-    background-color: #FE142F;
-    height: 55px;
-    border-radius: 8px;
-    font-size: 25px;
+  
+  @include btn;
+  
+  
+  
     text-align: center;
     color: white;
     margin: auto;
