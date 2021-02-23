@@ -50,7 +50,7 @@ closeModale.addEventListener("click", () => {
 form.addEventListener('submit',(e) => {
     e.preventDefault();
     for(i= 1 ; i < 6; i++ ) {
-        tableauResultat.push(document.querySelector(`input[name = "area${i}"]`).value);
+        tableauResultat.push(document.querySelector(`input[name = "location${i}"]`).value);
     };
    
     console.log(tableauResultat);

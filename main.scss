@@ -14,8 +14,8 @@
     justify-content: space-between;
     margin: 40px 3.5%;
     align-items: center;
-    // min-height: 8vh;
-    // background-color: pink;
+
+
 
 
 
@@ -185,7 +185,7 @@ footer{
 
 @media screen and (max-width:425px){
     .card{
-      width: 90%;
+      min-width: 280px;
     //   flex-direction: column;
     }
     .image{

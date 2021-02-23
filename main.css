@@ -175,6 +175,7 @@ footer {
   right: 40%;
   left: 50%;
   display: none;
+  z-index: 2000;
 }
 
 .checkbox-label {
@@ -452,7 +453,7 @@ footer {
 
 @media screen and (max-width: 425px) {
   .card {
-    width: 90%;
+    min-width: 280px;
   }
   .image img {
     display: block;
